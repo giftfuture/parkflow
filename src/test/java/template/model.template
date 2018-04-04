@@ -1,0 +1,15 @@
+package ${modelPackage};
+
+${propImportsStr}
+
+/**
+ * ${tableComment}
+ * modle
+ */
+public class ${tableClass} extends BaseModel {
+
+${propFieldDefStr}
+
+	${propMethodDefStr}
+	
+}

@@ -1,0 +1,16 @@
+pa_terminal
+{
+	"terminal_id":3,
+	"terminal_name":"a",
+	"terminal_ip":"a",
+	"terminal_brand":"a",
+	"terminal_serial_number":"a",
+	"terminal_venue_id":"a",
+	"terminal_venue_grade":"a",
+	"terminal_merchants_id":"a",
+	"terminal_user":"a",
+	"terminal_remarks":"a",
+	"state":"a",
+	"createtime":"a",
+	"updatetime":"a"
+}

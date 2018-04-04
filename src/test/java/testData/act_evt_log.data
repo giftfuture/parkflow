@@ -1,0 +1,15 @@
+act_evt_log
+{
+	"LOG_NR_":3,
+	"TYPE_":"a",
+	"PROC_DEF_ID_":"a",
+	"PROC_INST_ID_":"a",
+	"EXECUTION_ID_":"a",
+	"TASK_ID_":"a",
+	"TIME_STAMP_":"a",
+	"USER_ID_":"a",
+	"DATA_":"a",
+	"LOCK_OWNER_":"a",
+	"LOCK_TIME_":"a",
+	"IS_PROCESSED_":1
+}

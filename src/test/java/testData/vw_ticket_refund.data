@@ -1,0 +1,11 @@
+vw_ticket_refund
+{
+	"order_id":1,
+	"add_time":"a",
+	"order_channel":"a",
+	"ticket_price":1.2,
+	"original_orderid":"a",
+	"pay_type":"a",
+	"cost_money":1.2,
+	"staffname":"a"
+}

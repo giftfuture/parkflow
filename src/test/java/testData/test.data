@@ -1,0 +1,10 @@
+test
+{
+	"id":3,
+	"var1":"a",
+	"num1":1.2,
+	"date1":"a",
+	"state":"a",
+	"createtime":"a",
+	"updatetime":"a"
+}

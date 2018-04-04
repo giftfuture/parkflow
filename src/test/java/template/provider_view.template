@@ -1,0 +1,43 @@
+package ${providerPackage};
+
+import org.apache.ibatis.jdbc.SQL;
+import com.google.common.base.Strings;
+import java.util.Objects;
+import ${modelPackage}.${tableClass};
+
+public class ${tableClass}Provider {
+	
+	/**
+	 * 按条件查询总记录数
+	 * @param entity
+	 * @return
+	 */
+	public String select${tableClass}ByCount(${tableClass} entity) {
+		SQL sql = new SQL().SELECT("count(*)").FROM("${table}");
+		${propWhereStr}
+		return sql.toString();
+	}
+	/**
+	 * 按条件分页查询
+	 * @param entity
+	 * @param orderBy
+	 * @param limit
+	 * @param limitLen
+	 * @return
+	 */
+	public String select${tableClass}ByLimt(${tableClass} entity) {
+		SQL sql = new SQL().SELECT("*").FROM("${table}");
+		${propWhereStr}
+		return sql.toString() + " order by " + entity.getOrderBy() + " desc limit " + entity.getLimit() + "," + entity.getLimitLen();
+	}
+	/**
+	 * 按条件查询记录
+	 * @param entity
+	 * @return
+	 */
+	public String select${tableClass}(${tableClass} entity) {
+		SQL sql = new SQL().SELECT("*").FROM("${table}");
+${propWhereStr}
+		return sql.toString();
+	}
+}
